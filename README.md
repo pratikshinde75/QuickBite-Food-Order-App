@@ -1,16 +1,21 @@
-# React + Vite
+# QuickBite Express - React + ASP.NET Core Full-Stack App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack web application built with **React (Vite)** on the frontend and **ASP.NET Core Web API** on the backend.
 
-Currently, two official plugins are available:
+## 🚀 Features
+- 🔐 **User Authentication**: Login and session handling with .NET backend validation.
+- 🍕 **Food Ordering**: Browse categorized menu (Pizza, Burgers, Sides, Drinks, Desserts), search & filter.
+- 🛒 **Shopping Cart**: Real-time quantity adjustment, subtotal, tax & delivery calculations.
+- 💳 **Checkout & Payment**: Multiple payment options (Card, UPI, Cash on Delivery).
+- 🛵 **Live Order Tracking**: Real-time order status updates (`Preparing 🍳` -> `Out for Delivery 🛵` -> `Delivered 🏠`) via .NET API.
+- 📝 **CRUD Practice Demos**: Counter component and Task Manager with full CRUD (GET, POST, PUT, DELETE).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend**: React 18, Vite, JavaScript (ES6+), Hooks (`useState`, `useEffect`).
+- **Backend**: ASP.NET Core 8.0 Web API, C#.
+- **IDE**: Visual Studio 2022 Enterprise.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏁 Getting Started
+1. Open `ReactDotNetCoreApp.slnx` in **Visual Studio 2022**.
+2. Press **F5** to run both the backend API and frontend Vite server together.
+3. Open `https://localhost:56114` in your browser.
